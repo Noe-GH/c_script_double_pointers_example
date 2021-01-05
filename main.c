@@ -17,8 +17,6 @@ int main(int argc, char **argv)
     printf("Type the size of the arrays:\n");
     scanf("%i", &ArraysSize);
     
-    // Se pasa float * porque se está buscando el tamaño de un puntero a flotantes.
-    // [Aunque parece que no hace diferencia, el tamaño sigue siendo 4, como con float]
     ArraysPtrs = malloc(NArrays*sizeof(float *));
     if(ArraysPtrs==NULL)
     {
