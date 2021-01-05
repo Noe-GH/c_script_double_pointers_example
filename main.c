@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-    The code exemplifies the storing of array pointers in another array.
+    The code exemplifies the storing of array pointers in another array (double pointers).
 */
 
 int main(int argc, char **argv)
